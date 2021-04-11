@@ -1,4 +1,4 @@
-# python_db_con
+python_db_con
 
 이 파일은 DB2, Oracle, Postgre, sql server(MS SQL)을 연결하기 위해서 만든 통합 함수 입니다.
 
@@ -14,7 +14,9 @@ DB연결 구분(oracle인지 oracle이 아닌지(db2, postgre, sql server)이 �
 
 Oracle은 추가로 앞에서 설정 해 놓은 설치 경로 객체를 추가로 넣으면 됩니다.
 
-#실제 수행 코드
+--------------------------------------------------------
+
+1. 실제 수행 코드
 
 from python_db_con import python_db_connection
 
@@ -25,8 +27,9 @@ python_db_connection('oracle', 'DB명칭', 'host', 'port', 'id', 'pw',
 
 python_db_connection('db2', 'DB명칭', 'host', 'port', 'id', 'pw')
 
+--------------------------------------------------------
 
-#각 DB 개별 수행 코드
+2. 각 DB 개별 수행 코드
 
 해당 py 내부 파일 개별 연결 함수들이 따로 존재합니다.
 
@@ -40,7 +43,9 @@ from python_db_con import 각 DBMS 개별 연결 함수를 사용하시거나
 
 여러 DBMS 패키지까지 같이 import 되는걸 원하지 않으신다면, 따로 추출하셔서 사용하시는걸 권장드립니다.
 
-#동작 중 문제사항 발생시
+--------------------------------------------------------
+
+3. 동작 중 문제사항 발생시
 
 해당 함수는 간단하게 구현한 것이고, 여러 DB를 매번 입력하는 것의 불편함을 해소하기 위해서
 
