@@ -35,7 +35,7 @@ python_db_connection('db2', 'DB명칭', 'host', 'port', 'id', 'pw')
 
 db2_con, oracle_con, sql_server_con, postgre_con으로 되어있습니다.
 
-https://bluemumin.github.io/ps/2021/01/24/Python&SQL-python%EC%97%90%EC%84%9C-%EA%B0%81-DB-%EC%97%B0%EA%B2%B0%ED%95%98%EB%8A%94-%EB%B2%95/
+깃허브 블로그 중[python에서 Oracle, MS SQL, DB2, Postgre DB 연동 하는 법](https://bluemumin.github.io/python/2021/01/24/Python-python%EC%97%90%EC%84%9C-%EA%B0%81-DB-%EC%97%B0%EA%B2%B0%ED%95%98%EB%8A%94-%EB%B2%95/)
 
 에 각 DB별 연결 방법 또한 적어 놓았습니다.
 
